@@ -57,7 +57,7 @@ function wert9_filter_captcha($commentdata){
         $args ="";
         wp_die($message, $title, $args);
     }elseif($_POST['captcha'] != $_SESSION['summ']){
-        $message = '<p>Капча не '.$_SESSION['summ'].' отмечена</p><p><a href="javascript:history.back()">← Назад</a></p>';
+        $message = '<p>Ответ на капчу не верен</p><p><a href="javascript:history.back()">← Назад</a></p>';
         $title = "Ошибка";
         $args ="";
         wp_die($message, $title, $args);
