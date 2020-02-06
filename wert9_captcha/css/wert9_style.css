@@ -1,0 +1,25 @@
+.captcha-wert9 {
+    width: 100%;
+    display: block;
+    height: 80px;
+}
+.captcha-wert9 .img-captcha-wert9{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    vertical-align:middle;
+    height: 100%;
+}
+
+.captcha-wert9 .img-captcha-wert9 img{
+    width: 60px;
+    height: 60px;
+}
+.captcha-wert9 .img-captcha-wert9 p{
+    font-size: 2.5em;
+    width: 60px;
+}
+
+.captcha-wert9 .img-captcha-wert9 input{
+    width: 80px;
+}
